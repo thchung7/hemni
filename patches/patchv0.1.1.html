@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<div id="header">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="under construction">
+			<title>patch v0.1.1</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com"> 
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+			<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+		</head>
+	</div> <!-- end of header div-->
+
+	<div id="body">
+		<body>
+			<h1>[jiff website]</h1>
+			<ul id="nav"> 
+				<li><a href="file:///Users/tchung/Documents/projects/new_html/index.html" title="<3" class="active">home</a></li>
+				<li><a href="file:///Users/tchung/Documents/projects/new_html/about.html" title="get to know me" class="active">about</a></li>
+				<li><a href="file:///Users/tchung/Documents/projects/new_html/projects.html" title="learn about what i've done!" class="active">projects</a></li>
+				<li><a href="file:///Users/tchung/Documents/projects/new_html/interests.html" title="how i like to spend my free time" class="active">interests</a></li>
+				<div id="dropdown">
+					<button id="drop_button"><a href="file:///Users/tchung/Documents/projects/new_html/patches.html" title="keeping up with jiff" class="active">patch notes</a></button>
+					<div id="dropdown_items">
+						<a href="patchv0.1.4.html">v0.1.4</a>
+						<a href="patchv0.1.3.html">v0.1.3</a>
+						<a href="patchv0.1.2.html">v0.1.2</a>
+					</div>
+				</div>
+				<li><a href="file:///Users/tchung/Documents/projects/new_html/contact.html" title="hmu" class="active">contact</a></li>
+			</ul>
+
+			<p><a href="javascript:history.back()">&#8249</a></p><!--back button-->
+
+			<h2>hemni v0.1.1</h2>
+			<p id="header_desc">day 2, alpha stage</p>
+
+			<dl id="notes_list">
+				<div>
+					<dt>added hyperlink to 'email' on contact page</dt>
+					<dd>clicking 'email' will now open your default email application prefilled with my contact email</dd>
+				</div>
+
+				<div>
+					<dt>added first css styling</dt>
+					<dd>horizontal nav bar, nav bar hover animations</dd>
+					<dd>accent bar between secondary header and header description</dd>
+					<dd>basics (font family import, bg colors, text colors)</dd>
+				</div>
+				
+				<div>
+					<dt>added hyperlinks throughout 'about' and 'interests' pages</dt>
+					<dt>added patch notes section + first patch</dt>
+					<dt>embedded spotify playlist onto homepage</dt>
+					<dt><3 footer link (subject to change)</dt>
+					<dt>added link hover animations to 'contact' page</dt>
+					<dt>added hyperlink from 'about' to 'projects', with anchor link to section about the website itself</dt>
+					<dt>fixed the damn spacing on the nav bar</dt>
+					<dd>was too far out to the right, fixed by adding general padding: 0px rather than using margin</dd>
+				</div>
+
+				<div>
+					<dt>added spacing beneath every last sub bullet in list of patch notes + interests list to better separate bullets without <code>&lt;ul&gt;</code> styling</dt>
+					<dd>used <code>&lt;div&gt;</code> to separate, don't like having a ton of <code>&lt;div&gt;</code>s in my code but it works and i can't think of another way to use selectors for my desired output; to be continued</dd>
+				</div>
+
+				<dt>test</dt>
+				<dd>test test</dd>
+				<dd>test test</dd>
+
+				<div>
+					<dt>added timestamp to patch notes</dt>
+					<dd>must be done manually for the time being</dd>
+				</div>
+
+				<div>
+					<dt>fixed (added) margin back to <code>&lt;ol&gt;</code></dt>
+					<dd>numbers were pushed off the screen by general margin 0 (issue in 'projects')</dd>
+				</div>
+			</dl>
+
+			<ul id="timestamp">
+				<li>sat jul 30 2022</li>
+				<li>01:07:07 am</li>
+			</ul>
+
+			<p><a href="javascript:history.back()">back</a></p>
+		</body>
+	</div> <!-- end of body div-->
+
+	<div>
+		<footer>
+			<p id="bottomright" title=":3"><3</p>
+		</footer>
+	</div> <!--end of footer div-->
+</html>
